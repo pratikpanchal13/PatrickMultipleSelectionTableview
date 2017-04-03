@@ -24,11 +24,6 @@ it, simply add the following line to your Podfile
 
 ````ruby
 use_frameworks!
-
-# Latest release in CocoaPods
-pod 'PatrickMultipleSelectionTableview'
-
-# Get the latest on develop
 pod 'PatrickMultipleSelectionTableview', :git => 'https://github.com/pratikpanchal13/PatrickMultipleSelectionTableview.git'
 ````
 
