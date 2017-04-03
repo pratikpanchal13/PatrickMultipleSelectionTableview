@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'PatrickMultipleSelectionTableview_Example' do
-  pod 'PatrickMultipleSelectionTableview', :path => '../'
+  pod 'PatrickMultipleSelectionTableview', :path => 'https://github.com/pratikpanchal13/PatrickMultipleSelectionTableview.git'
 
   target 'PatrickMultipleSelectionTableview_Tests' do
     inherit! :search_paths
