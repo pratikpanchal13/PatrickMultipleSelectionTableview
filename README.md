@@ -11,14 +11,34 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+* Swift 3.0
+* Xcode 8
+* iOS 9.0+
+
 ## Installation
 
-PatrickMultipleSelectionTableview is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+#### [CocoaPods](http://cocoapods.org) (recommended)
 
-```ruby
-pod "PatrickMultipleSelectionTableview"
-```
+MST1 is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile
+
+````ruby
+use_frameworks!
+
+# Latest release in CocoaPods
+pod 'PatrickMultipleSelectionTableview'
+
+# Get the latest on develop
+pod 'PatrickMultipleSelectionTableview', :git => 'https://github.com/pratikpanchal13/PatrickMultipleSelectionTableview.git'
+````
+
+## USAGE
+
+import PatrickMultipleSelectionTableview in ViewController.swift
+
+````ruby   
+import PatrickMultipleSelectionTableview
+````
 
 ## Author
 
