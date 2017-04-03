@@ -1,3 +1,6 @@
+ 
+![alt text](https://github.com/pratikpanchal13/PatrickMultipleSelectionTableview/blob/master/Pratik.gif)
+
 # PatrickMultipleSelectionTableview
 
 [![CI Status](http://img.shields.io/travis/pratikpanchal131/PatrickMultipleSelectionTableview.svg?style=flat)](https://travis-ci.org/pratikpanchal131/PatrickMultipleSelectionTableview)
@@ -24,6 +27,7 @@ it, simply add the following line to your Podfile
 
 ````ruby
 use_frameworks!
+
 pod 'PatrickMultipleSelectionTableview', :git => 'https://github.com/pratikpanchal13/PatrickMultipleSelectionTableview.git'
 ````
 
