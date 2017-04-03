@@ -1,0 +1,6 @@
+framework module PatrickMultipleSelectionTableview {
+  umbrella header "PatrickMultipleSelectionTableview-umbrella.h"
+
+  export *
+  module * { export * }
+}

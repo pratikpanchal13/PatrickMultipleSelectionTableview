@@ -1,0 +1,16 @@
+PODS:
+  - PatrickMultipleSelectionTableview (0.1.0)
+
+DEPENDENCIES:
+  - PatrickMultipleSelectionTableview (from `../`)
+
+EXTERNAL SOURCES:
+  PatrickMultipleSelectionTableview:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PatrickMultipleSelectionTableview: 904bb5b0e0dcfe39297658485cee75fd05d1436e
+
+PODFILE CHECKSUM: 23d1cfeb7cb4930564fa62c24ee84c84267dd762
+
+COCOAPODS: 1.2.0

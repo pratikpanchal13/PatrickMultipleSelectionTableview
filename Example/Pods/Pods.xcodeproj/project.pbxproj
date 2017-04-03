@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6031A0E0BEC34023165EDC4739A131BE /* Pods-PatrickMultipleSelectionTableview_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCD519D1A7640C52C232DB8E241A33D6 /* Pods-PatrickMultipleSelectionTableview_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EDB5EE3D42EC1B82BF4B115A8F19332 /* Pods-PatrickMultipleSelectionTableview_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F140545AAE512E642A5BB06BC2E3C8CC /* Pods-PatrickMultipleSelectionTableview_Example-dummy.m */; };
+		743B7A90634DD90C47CAA7172A91EA04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9CC77E51E8FAC856646DF2AF08B2059D /* Pods-PatrickMultipleSelectionTableview_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D564BB3BC98F43B79875C80A27E234 /* Pods-PatrickMultipleSelectionTableview_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D56F0C946396970BBC47738A75B45CA /* PatrickMultipleSelectionTableview-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D8E7D8C14B0A342BC72C59E1BC017FE /* PatrickMultipleSelectionTableview-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A92F02FE1E923F7B00096C79 /* PKMulipleSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92F02FD1E923F7B00096C79 /* PKMulipleSelectionVC.swift */; };
+		B6D5335403C99AEA7325CAD4094FE839 /* Pods-PatrickMultipleSelectionTableview_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A93D0C8BCE3B0B0D6C1C72EA9CB00C96 /* Pods-PatrickMultipleSelectionTableview_Tests-dummy.m */; };
+		C6F125B03EC3F4A1C7F8DF0F4789F4DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CE73B49B168576C48494550D75D751AA /* PatrickMultipleSelectionTableview-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC4E6C0639DE2276FBA938F9B2FFDC0 /* PatrickMultipleSelectionTableview-dummy.m */; };
+		E7CA26B696D0F2D9896D4C5E9049D549 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC0D9658894AD38F8E056E3F6F44DF9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BFBCB467F99FE3EEB936E129B37F425;
+			remoteInfo = PatrickMultipleSelectionTableview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08FE521CCC47575130B340A8B5D55749 /* Pods-PatrickMultipleSelectionTableview_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatrickMultipleSelectionTableview_Tests-resources.sh"; sourceTree = "<group>"; };
+		2AAA1681B3302F282A34A23671F6A481 /* PatrickMultipleSelectionTableview-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PatrickMultipleSelectionTableview-prefix.pch"; sourceTree = "<group>"; };
+		506BBF3D04AD7B57BB400E37D22C8FD3 /* Pods_PatrickMultipleSelectionTableview_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrickMultipleSelectionTableview_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		541F90F7AD9FC05CE01AA5D2568F23B7 /* Pods-PatrickMultipleSelectionTableview_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatrickMultipleSelectionTableview_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		58BAC66CF7EA8E60722DE334BD0A33BD /* Pods_PatrickMultipleSelectionTableview_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrickMultipleSelectionTableview_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E8585AAE20F26A401F06BC584A68CC /* Pods-PatrickMultipleSelectionTableview_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatrickMultipleSelectionTableview_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6AC4E6C0639DE2276FBA938F9B2FFDC0 /* PatrickMultipleSelectionTableview-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PatrickMultipleSelectionTableview-dummy.m"; sourceTree = "<group>"; };
+		74454B8EF087D23CAAB52C61EFADDE57 /* Pods-PatrickMultipleSelectionTableview_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PatrickMultipleSelectionTableview_Tests.modulemap"; sourceTree = "<group>"; };
+		75304AD5A2747E7C7F5708C6EB15A3F8 /* PatrickMultipleSelectionTableview.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PatrickMultipleSelectionTableview.xcconfig; sourceTree = "<group>"; };
+		77B36AAD0B4DEF425551C3296EABA1EC /* Pods-PatrickMultipleSelectionTableview_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PatrickMultipleSelectionTableview_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8A7751FE07A7A076C3FCD0AEB06BA86D /* Pods-PatrickMultipleSelectionTableview_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatrickMultipleSelectionTableview_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8D8E7D8C14B0A342BC72C59E1BC017FE /* PatrickMultipleSelectionTableview-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PatrickMultipleSelectionTableview-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		973A728D363472A2C8963DAD9D2871C3 /* Pods-PatrickMultipleSelectionTableview_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PatrickMultipleSelectionTableview_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CD85D52515F82A153A39A7DE5D944F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40660A56996532ED914169A4B2BC92D /* Pods-PatrickMultipleSelectionTableview_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatrickMultipleSelectionTableview_Example-resources.sh"; sourceTree = "<group>"; };
+		A92F02FD1E923F7B00096C79 /* PKMulipleSelectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PKMulipleSelectionVC.swift; sourceTree = "<group>"; };
+		A92F02FF1E923FE600096C79 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A92F03001E92400800096C79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A93D0C8BCE3B0B0D6C1C72EA9CB00C96 /* Pods-PatrickMultipleSelectionTableview_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PatrickMultipleSelectionTableview_Tests-dummy.m"; sourceTree = "<group>"; };
+		AF56C6E9C75A3FD1A8C68D06DA5D15DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAED7732B8F569F274AAF57468B32DE7 /* Pods-PatrickMultipleSelectionTableview_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PatrickMultipleSelectionTableview_Example.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D040BEACB62E897E3613D750EB4CD35E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97BD0D969070673BCF9CBC0B96E24DF /* PatrickMultipleSelectionTableview.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PatrickMultipleSelectionTableview.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD519D1A7640C52C232DB8E241A33D6 /* Pods-PatrickMultipleSelectionTableview_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PatrickMultipleSelectionTableview_Example-umbrella.h"; sourceTree = "<group>"; };
+		E1D564BB3BC98F43B79875C80A27E234 /* Pods-PatrickMultipleSelectionTableview_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PatrickMultipleSelectionTableview_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E67D1B57AEF8B3D638C1AA4A63B6CAD3 /* Pods-PatrickMultipleSelectionTableview_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatrickMultipleSelectionTableview_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EE33A0AD7C221D2608C03987A0EC1708 /* Pods-PatrickMultipleSelectionTableview_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PatrickMultipleSelectionTableview_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		EF22BC8AC872ADC987EFD23FF73C35AA /* Pods-PatrickMultipleSelectionTableview_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PatrickMultipleSelectionTableview_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F140545AAE512E642A5BB06BC2E3C8CC /* Pods-PatrickMultipleSelectionTableview_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PatrickMultipleSelectionTableview_Example-dummy.m"; sourceTree = "<group>"; };
+		F33FADC577C320C3EACA21EFC93B5253 /* Pods-PatrickMultipleSelectionTableview_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PatrickMultipleSelectionTableview_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBE3AC1349A012550E4E8E6E1FE33225 /* PatrickMultipleSelectionTableview.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PatrickMultipleSelectionTableview.modulemap; sourceTree = "<group>"; };
+		FCD4BE1C403F2503DE68582FD216E66F /* Pods-PatrickMultipleSelectionTableview_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PatrickMultipleSelectionTableview_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6841F9E7C42015978147A19E04340933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6F125B03EC3F4A1C7F8DF0F4789F4DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDEFD3A5852724900A203BC2F105400 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743B7A90634DD90C47CAA7172A91EA04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8568FC466EDB2755415CF537B921E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7CA26B696D0F2D9896D4C5E9049D549 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11847102DAAF43D50664C8D571463161 /* PatrickMultipleSelectionTableview */ = {
+			isa = PBXGroup;
+			children = (
+				33AC876537F6B9A6E82595537CB6CCC3 /* PatrickMultipleSelectionTableview */,
+				D318F0A62C4D1C5C9D557AEF4FB34642 /* Support Files */,
+			);
+			name = PatrickMultipleSelectionTableview;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		30604A47096B9CCFF91626A49E2A74C3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11847102DAAF43D50664C8D571463161 /* PatrickMultipleSelectionTableview */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		33AC876537F6B9A6E82595537CB6CCC3 /* PatrickMultipleSelectionTableview */ = {
+			isa = PBXGroup;
+			children = (
+				34B3B868B17A56795C3116DE8CB037B1 /* Classes */,
+			);
+			path = PatrickMultipleSelectionTableview;
+			sourceTree = "<group>";
+		};
+		34B3B868B17A56795C3116DE8CB037B1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A92F02FD1E923F7B00096C79 /* PKMulipleSelectionVC.swift */,
+				A92F02FF1E923FE600096C79 /* Main.storyboard */,
+				A92F03001E92400800096C79 /* Assets.xcassets */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C0CFEA9501408038EBA7AF3805FDA82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D97BD0D969070673BCF9CBC0B96E24DF /* PatrickMultipleSelectionTableview.framework */,
+				506BBF3D04AD7B57BB400E37D22C8FD3 /* Pods_PatrickMultipleSelectionTableview_Example.framework */,
+				58BAC66CF7EA8E60722DE334BD0A33BD /* Pods_PatrickMultipleSelectionTableview_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				30604A47096B9CCFF91626A49E2A74C3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7C0CFEA9501408038EBA7AF3805FDA82 /* Products */,
+				D0D95A5DA90119AE3133A51BDEC99D17 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8634CF9EE4EF8F0F06FFAE3667120032 /* Pods-PatrickMultipleSelectionTableview_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AF56C6E9C75A3FD1A8C68D06DA5D15DB /* Info.plist */,
+				CAED7732B8F569F274AAF57468B32DE7 /* Pods-PatrickMultipleSelectionTableview_Example.modulemap */,
+				FCD4BE1C403F2503DE68582FD216E66F /* Pods-PatrickMultipleSelectionTableview_Example-acknowledgements.markdown */,
+				F33FADC577C320C3EACA21EFC93B5253 /* Pods-PatrickMultipleSelectionTableview_Example-acknowledgements.plist */,
+				F140545AAE512E642A5BB06BC2E3C8CC /* Pods-PatrickMultipleSelectionTableview_Example-dummy.m */,
+				8A7751FE07A7A076C3FCD0AEB06BA86D /* Pods-PatrickMultipleSelectionTableview_Example-frameworks.sh */,
+				A40660A56996532ED914169A4B2BC92D /* Pods-PatrickMultipleSelectionTableview_Example-resources.sh */,
+				DCD519D1A7640C52C232DB8E241A33D6 /* Pods-PatrickMultipleSelectionTableview_Example-umbrella.h */,
+				61E8585AAE20F26A401F06BC584A68CC /* Pods-PatrickMultipleSelectionTableview_Example.debug.xcconfig */,
+				E67D1B57AEF8B3D638C1AA4A63B6CAD3 /* Pods-PatrickMultipleSelectionTableview_Example.release.xcconfig */,
+			);
+			name = "Pods-PatrickMultipleSelectionTableview_Example";
+			path = "Target Support Files/Pods-PatrickMultipleSelectionTableview_Example";
+			sourceTree = "<group>";
+		};
+		A52FA613391C76E4EA4E3B1E5972E5B5 /* Pods-PatrickMultipleSelectionTableview_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9CD85D52515F82A153A39A7DE5D944F2 /* Info.plist */,
+				74454B8EF087D23CAAB52C61EFADDE57 /* Pods-PatrickMultipleSelectionTableview_Tests.modulemap */,
+				77B36AAD0B4DEF425551C3296EABA1EC /* Pods-PatrickMultipleSelectionTableview_Tests-acknowledgements.markdown */,
+				973A728D363472A2C8963DAD9D2871C3 /* Pods-PatrickMultipleSelectionTableview_Tests-acknowledgements.plist */,
+				A93D0C8BCE3B0B0D6C1C72EA9CB00C96 /* Pods-PatrickMultipleSelectionTableview_Tests-dummy.m */,
+				EE33A0AD7C221D2608C03987A0EC1708 /* Pods-PatrickMultipleSelectionTableview_Tests-frameworks.sh */,
+				08FE521CCC47575130B340A8B5D55749 /* Pods-PatrickMultipleSelectionTableview_Tests-resources.sh */,
+				E1D564BB3BC98F43B79875C80A27E234 /* Pods-PatrickMultipleSelectionTableview_Tests-umbrella.h */,
+				EF22BC8AC872ADC987EFD23FF73C35AA /* Pods-PatrickMultipleSelectionTableview_Tests.debug.xcconfig */,
+				541F90F7AD9FC05CE01AA5D2568F23B7 /* Pods-PatrickMultipleSelectionTableview_Tests.release.xcconfig */,
+			);
+			name = "Pods-PatrickMultipleSelectionTableview_Tests";
+			path = "Target Support Files/Pods-PatrickMultipleSelectionTableview_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0D95A5DA90119AE3133A51BDEC99D17 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8634CF9EE4EF8F0F06FFAE3667120032 /* Pods-PatrickMultipleSelectionTableview_Example */,
+				A52FA613391C76E4EA4E3B1E5972E5B5 /* Pods-PatrickMultipleSelectionTableview_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D318F0A62C4D1C5C9D557AEF4FB34642 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D040BEACB62E897E3613D750EB4CD35E /* Info.plist */,
+				FBE3AC1349A012550E4E8E6E1FE33225 /* PatrickMultipleSelectionTableview.modulemap */,
+				75304AD5A2747E7C7F5708C6EB15A3F8 /* PatrickMultipleSelectionTableview.xcconfig */,
+				6AC4E6C0639DE2276FBA938F9B2FFDC0 /* PatrickMultipleSelectionTableview-dummy.m */,
+				2AAA1681B3302F282A34A23671F6A481 /* PatrickMultipleSelectionTableview-prefix.pch */,
+				8D8E7D8C14B0A342BC72C59E1BC017FE /* PatrickMultipleSelectionTableview-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PatrickMultipleSelectionTableview";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52945D9F1BF334356018AA98FFD08C99 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CC77E51E8FAC856646DF2AF08B2059D /* Pods-PatrickMultipleSelectionTableview_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0AEC0CAC5E6C642A2B8C4F50DAF6C3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6031A0E0BEC34023165EDC4739A131BE /* Pods-PatrickMultipleSelectionTableview_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C41FDEDEED67D9657D577F3D5A8D3CFB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D56F0C946396970BBC47738A75B45CA /* PatrickMultipleSelectionTableview-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5C5E9AAE3A44AF33C1539C46D4574127 /* Pods-PatrickMultipleSelectionTableview_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E62CA7CB6CF93A0A13D734D0D0FC17B /* Build configuration list for PBXNativeTarget "Pods-PatrickMultipleSelectionTableview_Tests" */;
+			buildPhases = (
+				18A968AB5C40F76C53F4B2859D117009 /* Sources */,
+				6841F9E7C42015978147A19E04340933 /* Frameworks */,
+				52945D9F1BF334356018AA98FFD08C99 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PatrickMultipleSelectionTableview_Tests";
+			productName = "Pods-PatrickMultipleSelectionTableview_Tests";
+			productReference = 58BAC66CF7EA8E60722DE334BD0A33BD /* Pods_PatrickMultipleSelectionTableview_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BFBCB467F99FE3EEB936E129B37F425 /* PatrickMultipleSelectionTableview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3579674E738B70D5C6C495C96A6A9802 /* Build configuration list for PBXNativeTarget "PatrickMultipleSelectionTableview" */;
+			buildPhases = (
+				DCB3C7B2CA3FCF9020FA04CD579DA97D /* Sources */,
+				B8568FC466EDB2755415CF537B921E55 /* Frameworks */,
+				C41FDEDEED67D9657D577F3D5A8D3CFB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PatrickMultipleSelectionTableview;
+			productName = PatrickMultipleSelectionTableview;
+			productReference = D97BD0D969070673BCF9CBC0B96E24DF /* PatrickMultipleSelectionTableview.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		942CF41BB91058C0A5CFD5E30F0F349E /* Pods-PatrickMultipleSelectionTableview_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC428C8358DC019DEDA6735657162265 /* Build configuration list for PBXNativeTarget "Pods-PatrickMultipleSelectionTableview_Example" */;
+			buildPhases = (
+				D11120E0FD786327B1B019842724DF27 /* Sources */,
+				9BDEFD3A5852724900A203BC2F105400 /* Frameworks */,
+				C0AEC0CAC5E6C642A2B8C4F50DAF6C3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCAE642F4545BB908AEF5FF103F0C1AF /* PBXTargetDependency */,
+			);
+			name = "Pods-PatrickMultipleSelectionTableview_Example";
+			productName = "Pods-PatrickMultipleSelectionTableview_Example";
+			productReference = 506BBF3D04AD7B57BB400E37D22C8FD3 /* Pods_PatrickMultipleSelectionTableview_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					8BFBCB467F99FE3EEB936E129B37F425 = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 7C0CFEA9501408038EBA7AF3805FDA82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BFBCB467F99FE3EEB936E129B37F425 /* PatrickMultipleSelectionTableview */,
+				942CF41BB91058C0A5CFD5E30F0F349E /* Pods-PatrickMultipleSelectionTableview_Example */,
+				5C5E9AAE3A44AF33C1539C46D4574127 /* Pods-PatrickMultipleSelectionTableview_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18A968AB5C40F76C53F4B2859D117009 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D5335403C99AEA7325CAD4094FE839 /* Pods-PatrickMultipleSelectionTableview_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D11120E0FD786327B1B019842724DF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EDB5EE3D42EC1B82BF4B115A8F19332 /* Pods-PatrickMultipleSelectionTableview_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB3C7B2CA3FCF9020FA04CD579DA97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE73B49B168576C48494550D75D751AA /* PatrickMultipleSelectionTableview-dummy.m in Sources */,
+				A92F02FE1E923F7B00096C79 /* PKMulipleSelectionVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCAE642F4545BB908AEF5FF103F0C1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PatrickMultipleSelectionTableview;
+			target = 8BFBCB467F99FE3EEB936E129B37F425 /* PatrickMultipleSelectionTableview */;
+			targetProxy = CC0D9658894AD38F8E056E3F6F44DF9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		086C575314E403980FA38603F6927CB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF22BC8AC872ADC987EFD23FF73C35AA /* Pods-PatrickMultipleSelectionTableview_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PatrickMultipleSelectionTableview_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PatrickMultipleSelectionTableview_Tests/Pods-PatrickMultipleSelectionTableview_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PatrickMultipleSelectionTableview_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2955BE83E55C56572EF08F7E02B43104 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67D1B57AEF8B3D638C1AA4A63B6CAD3 /* Pods-PatrickMultipleSelectionTableview_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PatrickMultipleSelectionTableview_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PatrickMultipleSelectionTableview_Example/Pods-PatrickMultipleSelectionTableview_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PatrickMultipleSelectionTableview_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A44600EB549FF09586B1EB1097925E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75304AD5A2747E7C7F5708C6EB15A3F8 /* PatrickMultipleSelectionTableview.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PatrickMultipleSelectionTableview/PatrickMultipleSelectionTableview-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PatrickMultipleSelectionTableview/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PatrickMultipleSelectionTableview/PatrickMultipleSelectionTableview.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PatrickMultipleSelectionTableview;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B827666A6E790EDF1B0C6557A8A5C18E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61E8585AAE20F26A401F06BC584A68CC /* Pods-PatrickMultipleSelectionTableview_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PatrickMultipleSelectionTableview_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PatrickMultipleSelectionTableview_Example/Pods-PatrickMultipleSelectionTableview_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PatrickMultipleSelectionTableview_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF7EED9294FFC8911058F5EFB04A0D84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75304AD5A2747E7C7F5708C6EB15A3F8 /* PatrickMultipleSelectionTableview.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PatrickMultipleSelectionTableview/PatrickMultipleSelectionTableview-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PatrickMultipleSelectionTableview/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PatrickMultipleSelectionTableview/PatrickMultipleSelectionTableview.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PatrickMultipleSelectionTableview;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DDE58393E5FFB45CB5D42BE2AA18C489 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 541F90F7AD9FC05CE01AA5D2568F23B7 /* Pods-PatrickMultipleSelectionTableview_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PatrickMultipleSelectionTableview_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PatrickMultipleSelectionTableview_Tests/Pods-PatrickMultipleSelectionTableview_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PatrickMultipleSelectionTableview_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3579674E738B70D5C6C495C96A6A9802 /* Build configuration list for PBXNativeTarget "PatrickMultipleSelectionTableview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF7EED9294FFC8911058F5EFB04A0D84 /* Debug */,
+				7A44600EB549FF09586B1EB1097925E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E62CA7CB6CF93A0A13D734D0D0FC17B /* Build configuration list for PBXNativeTarget "Pods-PatrickMultipleSelectionTableview_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086C575314E403980FA38603F6927CB2 /* Debug */,
+				DDE58393E5FFB45CB5D42BE2AA18C489 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC428C8358DC019DEDA6735657162265 /* Build configuration list for PBXNativeTarget "Pods-PatrickMultipleSelectionTableview_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B827666A6E790EDF1B0C6557A8A5C18E /* Debug */,
+				2955BE83E55C56572EF08F7E02B43104 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
